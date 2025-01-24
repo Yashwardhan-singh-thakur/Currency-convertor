@@ -93,3 +93,17 @@ button {
   font-size: 1.15rem;
   cursor: pointer;
 }
+
+@media (max-width: 361px) {
+  .container {
+    padding: 1.75rem;
+    width: 80%;
+  }
+}
+
+@media (orientation: landscape) and (max-height: 360px) {
+  .container {
+    padding: 2rem;
+    width: 40vw;
+  }
+}
